@@ -146,7 +146,7 @@ end
 function M.setup(opts)
   -- Default configuration
   M.config = {
-    buffer_name = "_SCRATCH_",
+    buffer_name = "_SCRATCH_.md",
   }
 
   -- Check for configuration overrides passed in via opts
